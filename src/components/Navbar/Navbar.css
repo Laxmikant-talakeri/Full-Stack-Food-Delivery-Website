@@ -1,0 +1,70 @@
+.navbar {
+    /* Styles for the navbar container */
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    /* Styles for the logo image */
+    width: 150px;
+
+  }
+  
+  .navbar-menu {
+    /* Styles for the menu list */
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+
+  }
+  
+
+  
+  .navbar-right {
+    /* Styles for the right side of the navbar */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+  }
+  
+ 
+  
+  button {
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    /* Styles for the button within the search icon container */
+  }
+ button:hover{
+    background-color: #fff4f2;
+ }
+ .navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+ }
+ .navbar li{
+    cursor: pointer;
+ }
+ .navabr-search-icon{
+    position: relative;
+ }
+ .navabr-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius:5px ;
+    right: -8px;
+    top: -8px;
+
+ }
